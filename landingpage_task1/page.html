@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nursery Website</title>
+    <link rel="stylesheet" href="plant.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-brand">B! Nursery</div>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+            <li class="nav-item"><a href="#BestSeller" class="nav-link">BestSeller</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#login" class="nav-link">Login</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content -->
+    <section id="home" class="main-content">
+        <div class="hero-section" style="background-image: url('https://github.com/Miriali/NurseryWebsite/blob/master/img/main-3.jpg?raw=true');">
+            <h1 class="title-color">A garden is a friend you can visit anytime</h1>
+            <button class="btn-color"><h3>Learn More</h3></button>
+        </div>
+    </section>
+    <!--About-->
+    <section class="services py-5 text-center" id="about">
+        <div class="container">
+            <div class="col-10 mx-auto text-lg-center text-center text-color">
+                <h2>About Us</h2>
+                <h2><b>We are a reference in the market for<b></h2><br>
+            </div>
+            <div class="row">
+                <!--Single service-->
+                <div class="">
+                    <div class="service-icon">
+                        <img src="https://cdn-icons-png.freepik.com/256/4146/4146282.png?ga=GA1.1.478264026.1718534496&semt=ais_hybrid" alt="Flowers and Trees" >
+                    </div>
+                    <h3 class="font-weight-bold text-uppercase">
+                         Flowers and Trees</h3>      
+                </div>
+                <div class="">
+                    <div class="service-icon">
+                        <img src="https://cdn-icons-png.freepik.com/256/8555/8555276.png?ga=GA1.1.478264026.1718534496&semt=ais_hybrid" alt="Gardern Items">
+                    </div>
+                    <h3 class="font-weight-bold text-uppercase">
+                        Garden items</h3>
+                   </div>
+                <div class="">
+                    <div class="service-icon">
+                        <img src="https://cdn-icons-png.freepik.com/256/9579/9579514.png?ga=GA1.1.478264026.1718534496&semt=ais_hybrid" >
+                    </div>
+                    <h3 class="font-weight-bold text-uppercase">
+                        Best quality pots</h3>
+                </div>
+                <div class="">
+                    <div class="service-icon">
+                        <img src="https://cdn-icons-png.freepik.com/256/2608/2608981.png?ga=GA1.1.478264026.1718534496&semt=ais_hybrid" >
+                    </div>
+                    <h3 class="font-weight-bold text-uppercase">
+                        Unique Plants</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Best Seller Section -->
+<section class="seller py-5" id="best-seller">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="text-capitalize product-title">
+                    Best Seller Products</h1>
+            </div>
+        </div>
+        <!-- Row for images -->
+        <div class="seller-items">
+            <div class="seller-item">
+                <img src="https://github.com/Miriali/NurseryWebsite/blob/master/img/best-1.jpg?raw=true" alt="" class="img-fluid photo">
+                <h2>Chrysanthemums</h2>
+            </div>
+            <div class="seller-item">
+                <img src="https://github.com/Miriali/NurseryWebsite/blob/master/img/best-2.jpg?raw=true" alt="" class="img-fluid photo">
+                <h2>Begonias</h2>
+            </div>
+            <div class="seller-item">
+                <img src="https://github.com/Miriali/NurseryWebsite/blob/master/img/best-3.jpg?raw=true" alt="" class="img-fluid photo">
+                <h2>Tulips</h2>
+            </div>
+            <div class="seller-item">
+                <img src="https://github.com/Miriali/NurseryWebsite/blob/master/img/best-4.jpg?raw=true" alt="" class="img-fluid photo">
+                <h2>Anemones</h2>
+            </div>
+            <div class="seller-item">
+                <img src="https://github.com/Miriali/NurseryWebsite/blob/master/img/best-5.jpg?raw=true" alt="" class="img-fluid photo">
+                <h2>Lilies</h2>
+            </div>
+        </div>
+    </div>
+</section>
+        <!--Contact-->
+        <section class="contact py-5" id="contact">
+            <div class="container">
+                <h2 class="section-heading text-center">Contact Us</h2>
+                <form action="" class="col-lg-6 offset-lg-3">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="text" class="form-control" placeholder="Enter your name here">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea rows="5" class="form-control" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="check">
+                        <label class="form-check-label" for="check">
+                            Subscribe to news letter
+                        </label>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-lg btn-color cont-btn">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Nursery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
